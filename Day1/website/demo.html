@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 {
+            background-color: red;
+        }
+
+        .div2 {
+            background-color: blue;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        .green {
+
+            display: flex;
+            /* x axis - hori */
+            justify-content: center;
+            /* y axis - ver */
+            align-items: center;
+            /* padding: 2rem; */
+            gap: 3px;
+            flex-direction: row;
+
+            height: 10rem;
+            width: 10rem;
+            /* height: 160px;
+            width: 160px; */
+
+            background: #00F260;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #e6db05, #00F260);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #e6db05, #00F260);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            border: 4px solid yellow;
+            /* border-radius: 10px; */
+            border-bottom-left-radius: 30px;
+            border-top-right-radius: 30px;
+            /* box-shadow: ; */
+            /* border-left: 5px solid yellow; */
+            box-shadow:
+                1.5px 0.6px 1.4px rgba(0, 0, 0, 0.016),
+                3.4px 1.3px 3.1px rgba(0, 0, 0, 0.023),
+                5.9px 2.2px 5.3px rgba(0, 0, 0, 0.028),
+                9px 3.4px 8.2px rgba(0, 0, 0, 0.033),
+                13.4px 5px 12.2px rgba(0, 0, 0, 0.037),
+                19.7px 7.4px 17.9px rgba(0, 0, 0, 0.042),
+                29.5px 11px 26.8px rgba(0, 0, 0, 0.047),
+                47px 17.6px 42.7px rgba(0, 0, 0, 0.054),
+                88px 33px 80px rgba(0, 0, 0, 0.07);
+        }
+
+        .red {
+            display: flex;
+            /* x axis - hori */
+            justify-content: center;
+            /* y axis - ver */
+            align-items: center;
+            /* margin: 2rem; */
+            color: white;
+            /* padding: 2rem; */
+            height: 3rem;
+            width: 3rem;
+            background-color: red;
+            border-radius: 5px;
+        }
+
+        .blue {
+            display: flex;
+            /* x axis - hori */
+            justify-content: center;
+            /* y axis - ver */
+            align-items: center;
+            /* margin: 2rem; */
+            color: white;
+            /* padding: 2rem; */
+            height: 3rem;
+            width: 3rem;
+            background-color: blue;
+        }
+        .listdata{
+            font-size: 3rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 900;
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <h1>Heading </h1>
+        <h4>sub heading</h4>
+        <h6> small heading</h6>
+    </div>
+    <div class="div2">
+        <p>content</p>
+    </div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzC7lYEmBdECVgCcD6baNolLAW0QR7FZQHg2mcEeNGeoxKNwa1qnG0PgEQJTH-EHhm2vk&usqp=CAU"
+        alt="" />
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>email</th>
+                <th>phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>mohanraj</td>
+                <td>abc@abc.com</td>
+                <td>12345678</td>
+            </tr>
+        </tbody>
+    </table>
+    <ul class="listdata">
+        <li>data 1</li>
+        <li>data 2</li>
+        <li>data 3</li>
+    </ul>
+    <a href="https://www.google.com" target="_blank">goto Google</a>
+
+    <div class="green">
+        <div class="red">
+            <p class="content"> 1 </p>
+        </div>
+        <div class="blue">
+            <p class="content"> 2 </p>
+        </div>
+        <div class="blue">
+            <p class="content"> 3 </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
