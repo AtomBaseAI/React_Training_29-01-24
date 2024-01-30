@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us</title>
+    <title>Contact us</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -22,12 +22,12 @@
                         </li>
                     </a>
                     <a href="./about.html">
-                        <li class="nav-link active">
+                        <li class="nav-link">
                             About
                         </li>
                     </a>
                     <a href="./login.html">
-                        <li class="nav-link">
+                        <li class="nav-link active">
                             Login
                         </li>
                     </a>
@@ -36,9 +36,25 @@
         </div>
     </div>
 
-    <div>
-        About Page
+    <div class="login-container">
+        <div class="login-form shadow-1">
+            <form class="login" onsubmit="submitdata()">
+                <input type="email" placeholder="Email" class="input-field" id="email"/>
+                <input type="password" placeholder="Password" class="input-field" id="password"/>
+                <button type="submit" class="login-btn">Login</button>
+                <button class="help-btn" onclick="help()">Help</button>
+            </form>
+        </div>
     </div>
 </body>
-
+<script>
+    function submitdata(){
+        var useremail = document.getElementById("email").value
+        var userpassword = document.getElementById("password").value
+        alert("Email : "+useremail+" Password : "+userpassword)
+    }
+    function help (){
+        alert("Hello")
+    }
+</script>    
 </html>

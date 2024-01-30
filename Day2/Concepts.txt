@@ -1,0 +1,25 @@
+chrome - op - chromium  - v8 engine
+
+DOM -> Document Object Model (HTML)
+CSSOM -> CSS Object Model (CSS)
+JS Intrepreter -> JS (JS)
+
+
+js + v8 + c++ -> node js
+
+npm -> node package manager -> same as maven
+npx -> node package execute -> used for template models
+
+vite - advanced & create-react-app (CRA) - old -> template models
+
+Node - runtime 
+
+React - Package , UI Library -> Opensource -> FB
+
+HTML                        /                React
+
+Multi Page Application      /               Single Page App (SPA)
+
+Indidual HTML Pages	    /               Components Sturcture
+
+Browser DOM	            /               vDOM (DOM Copy)
